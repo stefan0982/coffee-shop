@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Link }             from 'gatsby'
-import logo                 from '../images/logo.svg'
+import { Link }            from 'gatsby'
+import logo                from '../../images/logo.svg'
 import { FaCartArrowDown } from 'react-icons/all'
 
 class Navbar
@@ -65,7 +65,7 @@ class Navbar
               </li>
             ) ) }
             <li className="nav-item ml-sm-5">
-              <FaCartArrowDown className="cart-icon"/>
+              <FaCartArrowDown className="cart-icon snipcart-checkout"/>
             </li>
           </ul>
         </div>
